@@ -1,0 +1,39 @@
+body{
+    background-image: url("../img/madera.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+header{
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("../img/mesa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    height: 8rem;
+}
+
+.links{
+    color: rgb(220, 209, 154);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 2%;
+    
+}
+
+.links:hover{
+    color: rgb(242, 238, 218);
+}
+
+.redes{
+    width: 1.2rem;
+    margin-right: 5%;
+}
+
+.redesA{
+    margin-right: 5%;
+}
