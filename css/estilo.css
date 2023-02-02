@@ -351,6 +351,68 @@ main {
 
 
 
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------- */
+/* -----------------------  PRODUCTOS.HTML  ------------------------------ */
+/* -------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+.headerProductos{
+    background-image: url("../img/productos.avif");
+}
+
+.productosDiv{
+    height: 20rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 251, 179); 
+    
+}
+
+.productosH1{
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: .5rem;
+    margin-top: -5rem;
+    
+}
+
+.productosMayor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+
+}
+
+.card{
+    margin: 1rem;
+    background-color: rgb(242, 238, 218);
+}
+
+.card-title{
+    font-weight: bold;
+    
+}
+
 /* --------------------------------------------------------------------- */
 /* -----------------------  MEDIA QUERIES  -------------------------------- */
 /* -------------------------------------------------------------------- */
@@ -414,6 +476,10 @@ main {
     .escribinosContenedor{
         width: 80%;
     }
+
+    .productosH1{
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -445,5 +511,9 @@ main {
     .footer{
         flex-direction: column;
         align-items: center;
+    }
+
+    .productosH1{
+        font-size: 2rem;
     }
 }
