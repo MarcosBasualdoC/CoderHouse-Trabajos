@@ -519,6 +519,64 @@ textarea {
 
 
 
+
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------- */
+/* -----------------------  CONTACTO.HTML  ------------------------------ */
+/* -------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+.headerBodega{
+    background-image: url("../img/bodega.jpg");
+    background-position: right;
+}
+
+.bodegaMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imagenesBodegaPag{
+    width: 100%;
+}
+
+.bodegaMain h2{
+    padding-top: 3rem;
+    font-weight: bold;
+    color: rgb(242, 238, 218);
+    text-decoration: underline;
+}
+
+.bodegaMain p, .bodegaMain ul{
+    width: 60%;
+    color: rgb(242, 238, 218);
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+
+
+
+
 /* --------------------------------------------------------------------- */
 /* -----------------------  MEDIA QUERIES  -------------------------------- */
 /* -------------------------------------------------------------------- */
@@ -586,6 +644,10 @@ textarea {
     .productosH1 {
         font-size: 3rem;
     }
+
+    .bodegaMain h2{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -621,5 +683,9 @@ textarea {
 
     .productosH1 {
         font-size: 2rem;
+    }
+
+    .bodegaMain h2{
+        font-size: 1.2rem;
     }
 }
