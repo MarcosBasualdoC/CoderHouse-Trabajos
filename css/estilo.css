@@ -729,4 +729,9 @@ textarea {
     .bodegaMain h2 {
         font-size: 1.2rem;
     }
+
+    .botonFormulario{
+        font-size: .9rem;
+        width: 50%;
+    }
 }
