@@ -526,7 +526,7 @@ textarea {
 
 
 /* --------------------------------------------------------------------- */
-/* -----------------------  CONTACTO.HTML  ------------------------------ */
+/* -----------------------  BODEGA.HTML  ------------------------------ */
 /* -------------------------------------------------------------------- */
 
 
@@ -539,30 +539,31 @@ textarea {
 
 
 
-.headerBodega{
+.headerBodega {
     background-image: url("../img/bodega.jpg");
     background-position: right;
 }
 
-.bodegaMain{
+.bodegaMain {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
 
-.imagenesBodegaPag{
+.imagenesBodegaPag {
     width: 100%;
 }
 
-.bodegaMain h2{
+.bodegaMain h2 {
     padding-top: 3rem;
     font-weight: bold;
     color: rgb(242, 238, 218);
     text-decoration: underline;
 }
 
-.bodegaMain p, .bodegaMain ul{
+.bodegaMain p,
+.bodegaMain ul {
     width: 60%;
     color: rgb(242, 238, 218);
     padding: 2rem;
@@ -577,9 +578,43 @@ textarea {
 
 
 
+
+/* --------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------- */
+/* -----------------------  FINCAS.HTML  ------------------------------ */
+/* -------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.headerFincas {
+    background-image: url("../img/fincas.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------------------------------------------------- */
 /* -----------------------  MEDIA QUERIES  -------------------------------- */
 /* -------------------------------------------------------------------- */
+
+
 
 @media (max-width: 992px) {
     .tituloDiv {
@@ -615,6 +650,9 @@ textarea {
     }
 }
 
+
+
+
 @media (max-width: 768px) {
     .tituloDiv {
         width: 60%;
@@ -645,10 +683,13 @@ textarea {
         font-size: 3rem;
     }
 
-    .bodegaMain h2{
+    .bodegaMain h2 {
         font-size: 1.5rem;
     }
 }
+
+
+
 
 @media (max-width: 576px) {
     .tituloDiv {
@@ -685,7 +726,7 @@ textarea {
         font-size: 2rem;
     }
 
-    .bodegaMain h2{
+    .bodegaMain h2 {
         font-size: 1.2rem;
     }
 }
