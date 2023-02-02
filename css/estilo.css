@@ -256,7 +256,7 @@ main {
 
 }
 
-.imagenesFincas{
+.imagenesFincas {
     animation: finca 20s infinite;
 }
 
@@ -293,22 +293,22 @@ main {
 
 /* --------------------  CONTACTO.MAIN  -------------------------------------------- */
 
-.fondoEscribinos{
+.fondoEscribinos {
     background-image: url("../img/escribinos.jpg");
     background-size: cover;
     background-position: right;
 }
 
-.botonEscribinos{
+.botonEscribinos {
     color: rgb(242, 238, 218);
     border-color: rgb(242, 238, 218);
 }
 
-.botonEscribinos:hover{
-    background-color: rgb(247, 251, 179); 
+.botonEscribinos:hover {
+    background-color: rgb(247, 251, 179);
 }
 
-.escribinosContenedor{
+.escribinosContenedor {
     background-color: rgba(0, 0, 0, 0.6);
     width: 60%;
     margin: 4rem;
@@ -316,12 +316,12 @@ main {
     border-radius: 10px;
 }
 
-.tituloEscribinos{
+.tituloEscribinos {
     color: rgb(247, 251, 179);
     font-weight: bold;
 }
 
-.parrafoEscribinos{
+.parrafoEscribinos {
     color: rgb(242, 238, 218);
     padding: 0 5%;
     padding-top: .5rem;
@@ -335,14 +335,14 @@ main {
 
 
 
-.footer{
+.footer {
     background-color: black;
     color: rgb(242, 238, 218);
-   display: flex;
-   justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
     padding: .8rem 0 0 0;
     font-size: .8rem;
-    
+
 }
 
 
@@ -372,29 +372,29 @@ main {
 
 
 
-.headerProductos{
+.headerProductos {
     background-image: url("../img/productos.avif");
 }
 
-.productosDiv{
+.productosDiv {
     height: 20rem;
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(247, 251, 179); 
-    
+    color: rgb(247, 251, 179);
+
 }
 
-.productosH1{
+.productosH1 {
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: .5rem;
     margin-top: -5rem;
-    
+
 }
 
-.productosMayor{
+.productosMayor {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -403,15 +403,121 @@ main {
 
 }
 
-.card{
+.card {
     margin: 1rem;
     background-color: rgb(242, 238, 218);
 }
 
-.card-title{
+.card-title {
     font-weight: bold;
-    
+
 }
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------- */
+/* -----------------------  CONTACTO.HTML  ------------------------------ */
+/* -------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+
+.mainContacto {
+    padding: 2rem 0;
+}
+
+.headerContacto {
+    background-image: url("../img/contacto.jpg");
+}
+
+fieldset {
+    border: none;
+    /* padding-top: 2rem; */
+    padding: 2rem;
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+legend {
+    color: rgb(242, 238, 218);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.campo {
+    margin-bottom: 1rem;
+
+}
+
+label {
+    color: rgb(242, 238, 218);
+    margin-bottom: 0.5;
+    display: block;
+
+}
+
+.inputEstilo {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 10rem;
+    resize: none;
+}
+
+
+.botonFormularioDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.botonFormulario {
+    background-color: white;
+    text-decoration: none;
+    /* padding: 1rem  1.5rem; */
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 40%;
+}
+
+.botonFormulario:hover {
+    background-color: rgb(247, 251, 179);
+}
+
+
+
+
+
 
 /* --------------------------------------------------------------------- */
 /* -----------------------  MEDIA QUERIES  -------------------------------- */
@@ -422,7 +528,7 @@ main {
         width: 50%;
     }
 
-    .mainBodega{
+    .mainBodega {
         background: rgb(0, 0, 0);
         background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
     }
@@ -432,21 +538,21 @@ main {
         /* width: 100%; */
     }
 
-    .imagenesFincas{
+    .imagenesFincas {
         margin-top: 0;
         grid-row: 2;
     }
 
-    .rowFincas{
+    .rowFincas {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
     }
 
-    .mainFincas{
+    .mainFincas {
         background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
     }
 
-    .separadorFincas{
+    .separadorFincas {
         margin-top: -5rem;
     }
 }
@@ -465,19 +571,19 @@ main {
         background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
     }
 
-    .imagenesFincas{
+    .imagenesFincas {
         margin-top: -2rem;
     }
 
-    .separadorFincas{
+    .separadorFincas {
         margin-top: -12rem;
     }
 
-    .escribinosContenedor{
+    .escribinosContenedor {
         width: 80%;
     }
 
-    .productosH1{
+    .productosH1 {
         font-size: 3rem;
     }
 }
@@ -496,24 +602,24 @@ main {
         background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
     }
 
-    .imagenesFincas{
+    .imagenesFincas {
         margin-top: -2rem;
     }
 
-    .separadorFincas{
+    .separadorFincas {
         margin-top: -16rem;
     }
 
-    .escribinosContenedor{
+    .escribinosContenedor {
         width: 95%;
     }
 
-    .footer{
+    .footer {
         flex-direction: column;
         align-items: center;
     }
 
-    .productosH1{
+    .productosH1 {
         font-size: 2rem;
     }
 }
