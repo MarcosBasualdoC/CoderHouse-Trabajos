@@ -1,11 +1,12 @@
-body{
+body {
     background-image: url("../img/madera.png");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    ;
 }
 
-header{
+header {
     width: 90%;
     margin: 0 auto;
     background-image: url("../img/mesa.jpeg");
@@ -16,51 +17,51 @@ header{
 }
 
 
-nav{
+nav {
     background-color: rgba(0, 0, 0, 0.6);
     background-size: 100%;
 }
 
-.logo{
+.logo {
     height: 8rem;
 }
 
-.links{
+.links {
     color: rgb(220, 209, 154);
     font-size: 1.2rem;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
-.links:hover{
+.links:hover {
     color: rgb(242, 238, 218);
 }
 
-.navegacion li{
+.navegacion li {
     margin-right: 2%;
 }
 
-.redes{
+.redes {
     width: 1.2rem;
     margin-right: auto;
     margin-left: auto;
 }
 
-.redesA{
+.redesA {
     margin-right: 2%;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     color: none;
     background-color: rgba(220, 209, 154, 0.9);
     margin-right: 5%;
     border-radius: 10px;
 }
 
-.navbar-nav{
+.navbar-nav {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 
@@ -68,7 +69,7 @@ nav{
 /* ******************************************************** */
 
 
-.tituloDiv{
+.tituloDiv {
     width: 38%;
     margin-left: 10%;
     margin-top: 5%;
@@ -78,7 +79,7 @@ nav{
     border-radius: 10px;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     color: rgb(205, 250, 137);
     font-size: 4rem;
@@ -86,23 +87,23 @@ nav{
     font-family: 'Parisienne', cursive;
 }
 
-.subrayado{
+.subrayado {
     width: 30rem;
     height: 1.5rem;
     margin-top: -2.5rem;
 }
 
-.tituloParrafo{
+.tituloParrafo {
     color: rgb(220, 209, 154);
     line-height: 2rem;
 }
 
-.tituloDiv a{
+.tituloDiv a {
     text-decoration: none;
-    
+
 }
 
-.aParrafo{
+.aParrafo {
     text-decoration: none;
     color: rgb(220, 209, 154);
     font-weight: bold;
@@ -117,11 +118,11 @@ nav{
 
 }
 
-.aParrafo:hover{
+.aParrafo:hover {
     color: rgb(242, 238, 218);
 }
 
-.animate__fadeIn{
+.animate__fadeIn {
     animation-duration: 4s;
 }
 
@@ -130,7 +131,7 @@ nav{
 
 
 
-main{
+main {
     background-image: url("../img/verde.png");
     width: 90%;
     margin: 0 auto;
@@ -138,44 +139,44 @@ main{
     background-size: cover;
 }
 
-.mainBodega{
+.mainBodega {
     padding-top: 4.5rem;
     padding-bottom: 5rem;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 75%, rgba(255,255,255,0) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
 }
 
-.tituloBodega{
+.tituloBodega {
     color: rgb(247, 251, 179);
     font-family: 'Parisienne', cursive;
     font-size: 3rem;
     text-decoration: 2px underline;
-    
+
 }
 
-.parrafoBodega{
+.parrafoBodega {
     color: rgb(242, 238, 218);
     padding: 0 5%;
     padding-top: .5rem;
     line-height: 1.7rem;
 }
 
-.linkBodegas{
+.linkBodegas {
     text-decoration: none;
 }
 
-.linkBodegasP{
+.linkBodegasP {
     color: rgb(242, 238, 218);
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     padding-top: 1rem;
 }
 
-.linkBodegasP:hover{
+.linkBodegasP:hover {
     color: rgb(247, 251, 179);
 }
 
-.imagenesBodega{
+.imagenesBodega {
     height: 30rem;
     margin-top: 6rem;
     /* background-image: url("../img/mimbre1.png"); */
@@ -184,41 +185,41 @@ main{
     background-position: center;
     transition: all 1s;
     animation: mimbre 20s infinite;
-   
+
 
 }
 
-@keyframes mimbre{
-    0%{
+@keyframes mimbre {
+    0% {
         background-image: url("../img/mimbre2.png");
     }
 
-    23%{
+    23% {
         background-image: url("../img/mimbre2.png");
     }
 
-    33%{
+    33% {
         background-image: url("../img/mimbre1.png");
     }
 
-    56%{
+    56% {
         background-image: url("../img/mimbre1.png");
     }
 
-    66%{
+    66% {
         background-image: url("../img/mimbre3.png");
     }
 
-    90%{
+    90% {
         background-image: url("../img/mimbre3.png");
     }
 
-    100%{
+    100% {
         background-image: url("../img/mimbre2.png");
     }
 }
 
-.separador{
+.separador {
     background-color: black;
     width: 100%;
     height: 3rem;
@@ -226,51 +227,171 @@ main{
 
 
 /* *************************************************** */
+
+
+.mainFincas {
+
+    padding-top: 4.5rem;
+    padding-bottom: 5rem;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+.imagenesFincas{
+    animation: finca 20s infinite;
+}
+
+@keyframes finca {
+    0% {
+        background-image: url("../img/finca1.png");
+    }
+
+    23% {
+        background-image: url("../img/finca1.png");
+    }
+
+    33% {
+        background-image: url("../img/finca2.png");
+    }
+
+    56% {
+        background-image: url("../img/finca2.png");
+    }
+
+    66% {
+        background-image: url("../img/finca3.png");
+    }
+
+    90% {
+        background-image: url("../img/finca3.png");
+    }
+
+    100% {
+        background-image: url("../img/finca1.png");
+    }
+}
+
+
+/* ************************************************************ */
+
+.fondoEscribinos{
+    background-image: url("../img/escribinos.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+.botonEscribinos{
+    color: rgb(242, 238, 218);
+    border-color: rgb(242, 238, 218);
+}
+
+.botonEscribinos:hover{
+    background-color: rgb(247, 251, 179); 
+}
+
+.escribinosContenedor{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 60%;
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.tituloEscribinos{
+    color: rgb(247, 251, 179);
+    font-weight: bold;
+}
+
+.parrafoEscribinos{
+    color: rgb(242, 238, 218);
+    padding: 0 5%;
+    padding-top: .5rem;
+    line-height: 1.7rem;
+}
+
 /* *************************************************** */
 
-@media (max-width: 992px){
-    .tituloDiv{
+@media (max-width: 992px) {
+    .tituloDiv {
         width: 50%;
     }
 
     .mainBodega{
-        background: rgb(0,0,0);
-        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 75%, rgba(255,255,255,0) 100%);
+        background: rgb(0, 0, 0);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
     }
 
-    .imagenesBodega{
+    .imagenesBodega {
         margin-top: -2rem;
         /* width: 100%; */
     }
+
+    .imagenesFincas{
+        margin-top: 0;
+        grid-row: 2;
+    }
+
+    .rowFincas{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .mainFincas{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+    }
 }
 
-@media (max-width: 768px){
-    .tituloDiv{
+@media (max-width: 768px) {
+    .tituloDiv {
         width: 60%;
     }
 
-    .imagenesBodega{
-        margin-top: 0;
+    .imagenesBodega {
         margin-top: -5rem;
     }
 
-    .mainBodega{
-        background: rgb(0,0,0);
-        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 75%, rgba(255,255,255,0) 100%);
+    .mainBodega {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .imagenesFincas{
+        margin-top: -2rem;
+    }
+
+    .separadorFincas{
+        margin-top: -12rem;
+    }
+
+    .escribinosContenedor{
+        width: 80%;
     }
 }
 
-@media (max-width: 576px){
-    .tituloDiv{
+@media (max-width: 576px) {
+    .tituloDiv {
         width: 80%;
     }
 
-    .imagenesBodega{
+    .imagenesBodega {
         margin-top: -6rem;
     }
 
-    .mainBodega{
-        background: rgb(0,0,0);
-        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 75%, rgba(255,255,255,0) 100%);
+    .mainBodega {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .imagenesFincas{
+        margin-top: -2rem;
+    }
+
+    .separadorFincas{
+        margin-top: -16rem;
+    }
+
+    .escribinosContenedor{
+        width: 95%;
     }
 }
